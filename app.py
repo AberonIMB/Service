@@ -12,7 +12,7 @@ from contextlib import asynccontextmanager
 
 model = None
 
-predict_dir = "predictions"
+predict_dir = "data/predictions" if "AMVERA" in os.environ else "predictions"
 os.makedirs(predict_dir, exist_ok=True)
 
 @asynccontextmanager
