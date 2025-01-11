@@ -1,0 +1,9 @@
+keras==3.7.0
+tensorflow==2.18.0
+numpy==2.0.2
+Pillow==11.0.0
+medpy==0.5.2
+fastapi==0.115.6
+pydicom==3.0.1
+uvicorn==0.34.0
+python-multipart==0.0.20
